@@ -3,7 +3,7 @@ package org.dougllas.jwtmpl.utils;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 
-public class SenhaUtils {
+public class PasswordUtils {
 	
 	private static PasswordEncoder encoder = new BCryptPasswordEncoder();
 
